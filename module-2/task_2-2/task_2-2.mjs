@@ -73,7 +73,7 @@ printOut("--- Part 6 -----------------------------------------------------------
 
     const letters = phrase.length;
     const letterNineteen = phrase.charAt(18);
-    const nineLetterString = phrase.slice(35, 43);
+    const nineLetterString = phrase.slice(34, 42);
     const wordEarth = phrase.indexOf("earth");
 
     const p6Answer = `The phrase contains ${letters} letters. The 19th letter is "${letterNineteen}". The nine-letter string starting at letter 35 is "${nineLetterString}". The word "earth" starts at index ${wordEarth}.`;
