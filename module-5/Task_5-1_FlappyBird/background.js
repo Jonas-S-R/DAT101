@@ -1,15 +1,15 @@
 "use strict";
-import {TSprite} from "libSprite";
 
-export class TBackground {
-    #spriteBackground;
-    #spriteGround;
+import { TSprite, TSpriteCanvas } from "libSprite";
 
-    constructor(aSpcvs, aSPI) {
-        this.#spriteBackground = new TSprite(aSpcvs, aSPI.background, 0, 0);
+export class TBackGround{
+    #SpriteBackGround;
+    #SpriteGround;
+    constructor(aSpcvs, aSPI){
+        this.#SpriteBackGround = new TSprite(aSpcvs, aSPI.background,0,0)
     }
 
-    draw() {
-        this.#spriteBackground.draw();
+    draw(){
+        this.#SpriteBackGround.draw();
     }
 }
