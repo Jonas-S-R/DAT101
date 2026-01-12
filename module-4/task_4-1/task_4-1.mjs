@@ -1,9 +1,19 @@
 "use strict";
 import { printOut, newLine } from "../../common/script/utils.mjs";
 
+const AccountType = {
+    normal: "Brukskonto",
+    saving: "Sparekonto",
+    credit: "Kredittkonto",
+    pension: "Pensjonskonto"
+};
+
 printOut("--- Part 1 ----------------------------------------------------------------------------------------------");
 /* Put your code below here!*/
-printOut("Replace this with you answer!");
+
+const accountTypes = Object.values(AccountType);
+
+printOut(accountTypes.join(", "));
 printOut(newLine);
 
 printOut("--- Part 2 ----------------------------------------------------------------------------------------------");
